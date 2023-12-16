@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Chatbot</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+
+    <!-- font awesome icon cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    
+    <div id="test">
+      <div class="child" id="chatbot">
+        <div class="header">
+          <div class="h-child">
+            <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="avatar" id="avatar" />
+            <div>
+              <span class="name">Chatbot</span>
+              <br />
+              <span style="color: rgb(255, 255, 255) " >online</span>
+            </div>
+          </div>
+          <div>
+            <button class="refBtn">
+              <i class="fa fa-refresh" onclick="initChat()"></i>
+            </button>
+          </div>
+        </div>
+
+        <div id="chat-box"></div>
+        <div class="footer">
+          <input type="text" id="user-input" placeholder="Write a message..." />
+                <button class="chatbox__send--footer send__button" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- js file  -->
+    <script
+    type="text/javascript"
+      src="{{ url_for('static', filename='app.js') }}"></script>
+    <!-- Add this script inside the head tag of your HTML file -->
+    <script>
+      function sendMessage() {
+          var userMessage = document.getElementById("user-input").value;
+          if (userMessage.trim() !== "") {
+              appendMessage("user", userMessage);
+              document.getElementById("user-input").value = "";
+ 
+              // Send message to the server
+              $.ajax({
+                  type: 'POST',
+                  url: '/get_response',
+                  data: { user_message: userMessage },
+                  success: function (data) {
+                      var botResponse = data.bot_response;
+                      appendMessage("bot", botResponse);
+                  }
+              });
+          }
+      }
+      document.getElementById("user-input").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        sendMessage();
+    }
+});
+      function appendMessage(sender, message) {
+    var chatBox = document.getElementById("chat-box");
+    var messageDiv = document.createElement("div");
+
+    // Add a class for user messages
+    var messageClass = sender === "user" ? "user-msg" : "bot-msg";
+    messageDiv.className = messageClass;
+
+    // Apply different styling based on the sender
+    if (sender === "user") {
+        // Styling for user messages
+        messageDiv.innerHTML = '<span class="user-name"></span> <span class="user-msg-text">' + message + '</span>';
+    } else {
+        // Styling for bot messages
+        messageDiv.innerHTML = '<span class="bot-name"></span> ' + message;
+    }
+
+    chatBox.appendChild(messageDiv);
+    // Scroll to the bottom of the chatbox to show the latest message
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+
+     
+  </script>
+ 
+
+  </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
