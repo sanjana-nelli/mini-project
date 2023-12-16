@@ -1,0 +1,459 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "What is Artificial Intelligence",
+      "patterns": [
+        "What does AI mean?",
+         "Explain AI in simple terms",
+         "what is ai?"
+      ],
+      "responses": [
+        "Artificial Intelligence, refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. The goal of AI is to create systems that can perform tasks that typically require human intelligence "
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "What is Natural Language Processing (NLP)",
+      "patterns": [
+        "What does NLP mean?",
+         "Explain NLP in simple terms",
+         "what is nlp?"
+      ],
+      "responses": [
+        "NLP is a branch of artificial intelligence that enables machines to understand, interpret, and generate human language."
+      ]
+    },
+    {
+      "tag": "How does NLP work?",
+      "patterns": [
+        "Can you explain the process behind NLP?",
+        "How do computers understand language?"
+      ],
+      "responses": [
+        " NLP works through algorithms and models to process and analyze human language, allowing computers to respond in a meaningful way."
+      ]
+    },
+    {
+      "tag": "What are some common NLP applications?",
+      "patterns": [
+        "Give examples of NLP uses.",
+        "Where can we see NLP in our daily lives?"
+      ],
+      "responses": [
+        "Common NLP applications include chatbots, language translation, sentiment analysis, and speech recognition"
+      ]
+    },
+    {
+      "tag": "What are the challenges in NLP?",
+      "patterns": [
+        "What problems do NLP developers face?",
+        "What makes NLP difficult to develop?"
+      ],
+      "responses": [
+        "Challenges in NLP include language ambiguity, understanding context, and handling diverse languages and dialects."
+      ]
+    },
+    {
+      "tag": "What are NLP algorithms and models?",
+      "patterns": [
+        "Explain the types of algorithms used in NLP.",
+        "How do computers learn language?"
+      ],
+      "responses": [
+      "NLP algorithms and models are computational techniques designed to process and understand human language, such as neural networks and transformer models."
+      ]
+    },
+    {
+      "tag": " What is the role of machine learning in NLP?",
+      "patterns": [
+        "How does machine learning improve NLP?",
+        "Explain the connection between machine learning and language processing."
+      ],
+      "responses": [
+        "Machine learning in NLP involves training algorithms with large datasets to improve language understanding and generation"
+      ]
+    },
+    {
+      "tag": " What is the importance of NLP in artificial intelligence?",
+      "patterns": [
+        "Why is NLP essential for AI development?",
+        "What does NLP add to artificial intelligence?"
+      ],
+      "responses": [
+        "NLP is crucial in AI as it enables machines to communicate with humans effectively, making AI applications more user-friendly and versatile."
+      ]
+    },
+    {
+      "tag": "What are the challenges in NLP?",
+      "patterns": [
+        "What problems do NLP developers face?",
+        "What makes NLP difficult to develop?"
+      ],
+      "responses": [
+        "Challenges in NLP include language ambiguity, understanding context, and handling diverse languages and dialects."
+      ]
+    },
+      {
+        "tag": "What is Machine Learning?",
+        "patterns": [
+          "Can you explain what Machine Learning is?",
+          "Describe the concept of Machine Learning in simple terms.",
+          "what is ml"
+        ],
+        "responses": [
+          "Machine Learning is a type of artificial intelligence that enables computers to learn from data and improve their performance on a task without explicit programming."
+        ]
+      },
+      {
+        "tag": "How does Machine Learning work?",
+        "patterns": [
+          "How do computers learn through Machine Learning?",
+          "Explain the working principle of Machine Learning."
+        ],
+        "responses": [
+          "Machine Learning works by training models on data, allowing them to make predictions or decisions without being explicitly programmed for each scenario."
+        ]
+      },
+      {
+        "tag": "What are the types of Machine Learning?",
+        "patterns": [
+          "Can you list the different types of Machine Learning?",
+          "What are the categories of Machine Learning?",
+          "different types of ml"
+        ],
+        "responses": [
+          "There are three main types: supervised learning (with labeled data), unsupervised learning (without labeled data), and reinforcement learning (reward-based learning)."
+        ]
+      },
+      {
+        "tag": "What is the difference between supervised and unsupervised learning?",
+        "patterns": [
+          "Explain the distinction between supervised and unsupervised learning.",
+          "How is supervised learning different from unsupervised learning?"
+        ],
+        "responses": [
+          "In supervised learning, the model is trained on labeled data with known outcomes, while in unsupervised learning, the model works with unlabeled data to find patterns and relationships."
+        ]
+      },
+      {
+        "tag": "What are some real-world applications of Machine Learning?",
+        "patterns": [
+          "Can you provide examples of Machine Learning in everyday life?",
+          "Where do we see Machine Learning in action?",
+          "what are the applications of ml"
+        ],
+        "responses": [
+          "Machine Learning is used in applications such as image recognition, recommendation systems, natural language processing, and self-driving cars."
+        ]
+      },
+      {
+        "tag": "How is data important in Machine Learning?",
+        "patterns": [
+          "Why is data essential for Machine Learning?",
+          "Explain the role of data in Machine Learning."
+        ],
+        "responses": [
+          "Data is crucial in Machine Learning as it is used to train models, validate their performance, and ensure accurate predictions."
+        ]
+      },
+      {
+        "tag": "What is the role of algorithms in Machine Learning?",
+        "patterns": [
+          "How do algorithms contribute to Machine Learning?",
+          "What is the significance of algorithms in Machine Learning?"
+        ],
+        "responses": [
+          "Algorithms are the mathematical formulas and procedures that enable machines to learn patterns and make predictions based on the data they process."
+        ]
+      },
+      {
+        "tag": "How does Machine Learning impact decision-making in businesses?",
+        "patterns": [
+          "How does Machine Learning influence business decisions?",
+          "Explain the impact of Machine Learning on decision-making in companies."
+        ],
+        "responses": [
+          "Machine Learning aids businesses by providing insights from data, automating processes, and enhancing decision-making through predictive analysis."
+        ]
+      },
+      {
+        "tag": "What are the challenges in Machine Learning?",
+        "patterns": [
+          "What difficulties are associated with Machine Learning?",
+          "Can you list the challenges in the field of Machine Learning?"
+        ],
+        "responses": [
+          "Challenges in Machine Learning include overfitting, data quality issues, interpretability of models, and ethical concerns related to bias."
+        ]
+      },
+      {
+        "tag": "How can Machine Learning models be evaluated?",
+        "patterns": [
+          "What criteria are used to assess Machine Learning models?",
+          "How do we measure the performance of Machine Learning algorithms?"
+        ],
+        "responses": [
+          "Machine Learning models are evaluated using metrics like accuracy, precision, recall, and F1 score, depending on the nature of the problem."
+        ]
+      },
+    
+      {
+          "tag": "What is DevOps?",
+          "patterns": [
+            "Can you define DevOps in simple terms?",
+            "Explain what DevOps means."
+          ],
+          "responses": [
+            "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously."
+          ]
+      },
+        {
+          "tag": "How does DevOps improve collaboration?",
+          "patterns": [
+            "How does DevOps enhance teamwork?",
+            "Explain the collaborative aspect of DevOps."
+          ],
+          "responses": [
+            "DevOps fosters collaboration by breaking down silos between development and operations teams, encouraging communication, and promoting shared responsibility."
+          ]
+        },
+        {
+          "tag": "What are the key principles of DevOps?",
+          "patterns": [
+            "Can you list the main principles of DevOps?",
+            "What are the fundamental ideas behind DevOps?"
+          ],
+          "responses": [
+            "DevOps principles include automation, continuous integration, continuous delivery, and a culture of collaboration and communication."
+          ]
+        },
+        {
+          "tag": "How does automation benefit DevOps practices?",
+          "patterns": [
+            "How does automation contribute to DevOps efficiency?",
+            "Explain the role of automation in DevOps."
+          ],
+          "responses": [
+            "Automation in DevOps streamlines repetitive tasks, reduces errors, and accelerates the software development and deployment process."
+          ]
+        },
+        {
+          "tag": "What is Continuous Integration (CI) in DevOps?",
+          "patterns": [
+            "Can you explain what Continuous Integration means in DevOps?",
+            "What is the purpose of Continuous Integration?"
+          ],
+          "responses": [
+            "CI is a practice in DevOps where developers frequently integrate code changes into a shared repository, enabling early bug detection and smoother collaboration."
+          ]
+        },
+        {
+          "tag": "How does DevOps address security concerns?",
+          "patterns": [
+            "How does DevOps incorporate security into the process?",
+            "Explain the role of DevOps in ensuring security."
+          ],
+          "responses": [
+            "DevOps integrates security practices throughout the development lifecycle, ensuring that security measures are implemented from the start."
+          ]
+        },
+        {
+          "tag": "What is Continuous Deployment (CD) in DevOps?",
+          "patterns": [
+            "Can you define Continuous Deployment in DevOps?",
+            "What does Continuous Deployment involve?"
+          ],
+          "responses": [
+            "CD is the practice of automatically deploying code changes to production after passing automated tests, providing a fast and reliable release process."
+          ]
+        },
+        {
+          "tag": "How does DevOps contribute to faster time-to-market?",
+          "patterns": [
+            "How does DevOps speed up the release of products?",
+            "Explain the impact of DevOps on time-to-market."
+          ],
+          "responses": [
+            "DevOps accelerates time-to-market by automating processes, reducing manual errors, and enabling continuous delivery of software updates."
+          ]
+        },
+        {
+          "tag": "Why is a DevOps culture important?",
+          "patterns": [
+            "What is the significance of a DevOps culture?",
+            "Why is a collaborative culture crucial in DevOps?"
+          ],
+          "responses": [
+            "A DevOps culture promotes collaboration, communication, and shared responsibility, fostering an environment where teams work together seamlessly."
+          ]
+        },
+        {
+          "tag": "How does DevOps support scalability and flexibility?",
+          "patterns": [
+            "How does DevOps ensure scalability?",
+            "Explain the role of DevOps in achieving flexibility in operations."
+          ],
+          "responses": [
+            "DevOps allows for scalable and flexible infrastructure through practices like infrastructure as code (IaC) and automated provisioning of resources."
+          ]
+        },
+        {
+          "tag":"subjects in 2nd year 1st semester",
+          "patterns":[
+            "What are the subjects in 2-1 semseter ?",
+            "list of courses for the 2-1",
+            "2-1 subjects"
+          ],
+          "responses": [
+            "In the 2nd year, 1st semester, our curriculum offers a balanced mix of theoretical foundations and practical skills the subjects included are Discrete Mathematics, Data Structures,Mathematical and Statistical Foundations,Computer Organization and Architecture,Python Programming,Business Economics & Financial Analysis,Data Structures Lab ,Python Programming Lab, Gender Sensitization Lab ."
+          ]
+        },
+        {
+          "tag": "What are subjects in 2-2nd semester",
+          "patterns": [
+            "What subjects are included in the 2- 2 semester ?",
+            "Can you provide a list of courses for the 2-2-semester",
+            "Are there any specialized subjects in the 2-2 semester",
+            "2-2 subjects"
+          ],
+          "responses": [
+            "In the 2nd year, 2nd semester, our curriculum offers a balanced mix of theoretical foundations and practical skills the subjects included are  Formal Language and Automata Theory,Software Engineering,Operating Systems,Database Management Systems,Object Oriented Programming using Java,Operating Systems Lab,Database Management Systems Lab,Java Programming Lab,Constitution of India."
+          ]
+        },
+          {
+            "tag": "What are subjects in 3rd year 1st semester?",
+            "patterns": [
+              "What  are the subjects  in  3-1 semester?",
+              "list of courses for the 3-1 semester",
+              "Are there any specialized subjects in the 3-1 semester",
+              "3-1 subjects"
+            ],
+            "responses": [
+              "In the 3rd year, 1st semester, our curriculum offers a balanced mix of theoretical foundations and practical skills. The subjects included are Design and Analysis of Algorithms, Machine Learning, Computer Networks, Compiler Design, Professional Elective - I, Professional Elective - II, Machine Learning Lab, Computer Networks Lab, Advanced Communication Skills Lab, Intellectual Property Rights."
+            ]
+          },
+          {
+            "tag": "What are subjects in 3rd year 2nd semester?",
+            "patterns": [
+              "What  are the subjects in  3-2 semester?",
+              " list of courses for the 3-2 semester",
+              "Are there any specialized subjects in the 3-2 semester",
+              "3-2 subjects"
+            ],
+            "responses": [
+              "In the 3rd year, 2nd semester, our curriculum offers a balanced mix of theoretical foundations and practical skills. The subjects included are Artificial Intelligence, DevOps, Natural Language Processing, Professional Elective – III, Open Elective - I, Artificial Intelligence and Natural Language Processing Lab, DevOps Lab, Professional Elective - III Lab, Environmental Science."
+            ]
+          },
+          {
+            "tag": "What are subjects in 4th year 1st semester?",
+            "patterns": [
+              "What are the subjects are included in the 4-1 semester?",
+              "list of courses for the 4-1",
+              "Are there any specialized subjects in the 4-1 semester",
+              "4-1 subjects"
+            ],
+            "responses": [
+              "In the 4th year, 1st semester, our curriculum offers a balanced mix of theoretical foundations and practical skills. The subjects included are Neural Networks & Deep Learning, Reinforcement Learning, Professional Elective - IV, Professional Elective - V, Open Elective - II, Deep Learning Lab, Industrial Oriented Mini Project/Summer Internship, Seminar, Project Stage - I."
+            ]
+          },
+          {
+            "tag": "What are subjects in 4th year 2nd semester?",
+            "patterns": [
+              "What are the subjects in  4-2 semester?",
+              "list of courses for the 4-2 semester",
+              "Are there any specialized subjects in the 4-2 semester",
+              "4-2 subjects"
+            ],
+            "responses": [
+              "In the 4th year, 2nd semester, our curriculum offers a balanced mix of theoretical foundations and practical skills. The subjects included are Organizational Behaviour, Professional Elective - VI, Open Elective - III, Project Stage - II."
+            ]
+          },
+          {
+            "tag": "What are subjects in professional elective in 3-1?",
+            "patterns": [
+              "What subjects are included in professional electives in 3-1?",
+              "What are the specialized subjects as professional electives in 3-1",
+              "3-1 electives"
+            ],
+            "responses": [
+              "In the 3rd year, 1st semester, The Professional Elective subjects are: Professional Elective - I (Graph Theory, Introduction to Data Science, Web Programming, Image Processing, Computer Graphics), Professional Elective - II (Software Testing Methodologies, Information Retrieval Systems, Pattern Recognition, Computer Vision and Robotics, Data Warehousing and Business Intelligence)."
+            ]
+          },
+          {
+            "tag": "What are subjects in professional elective in 3-2?",
+            "patterns": [
+              "What subjects are included in professional electives in 3-2?",
+              "What are the specialized subjects as professional electives in 3-2",
+              "3-2 electives"
+            ],
+            "responses": [
+              "In the 3rd year, 2nd semester, The Professional Elective subjects are: Professional Elective - III (Internet of Things, Data Mining, Scripting Languages, Mobile Application Development, Cryptography and Network Security)."
+            ]
+          },
+          {
+            "tag": "What are subjects in professional elective in 4-1?",
+            "patterns": [
+              "What subjects are included in professional electives in 4-1?",
+              "What are the specialized subjects as professional electives in 4-1",
+              "4-1 electives"
+
+            ],
+            "responses": [
+              "In the 4th year, 1st semester, The Professional Elective subjects are: Professional Elective - IV (Quantum Computing, Expert Systems, Cloud Computing, Game Theory, Mobile Computing), Professional Elective - V (Social Network Analysis, Federated Machine Learning, Augmented Reality & Virtual Reality, Web Security, Ad-hoc & Sensor Networks)."
+            ]
+          },
+          {
+            "tag": "What are subjects in professional elective in 4-2?",
+            "patterns": [
+              "What subjects are included in professional electives in 4-2?",
+              "What are the specialized subjects as professional electives in 4-2",
+              "4-2 electives"
+            ],
+            "responses": [
+              "In the 4th year, 2nd semester, The Professional Elective subjects are: Professional Elective – VI (Speech and Video Processing, Robotics Process Automation, Randomized Algorithms, Cognitive Computing, Semantic Web)."
+            ]
+          }
+        
+        
+        
+        
+        
+        
+        
+
+      
+      
+    
+
+  ]
+}
